@@ -18,10 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bootstrap3\\Template\\Layout\\": "src",
-            "Bootstrap3\\Template\\": "./plugins/Bootstrap3/src/Template",
-            "Bootstrap3\\webroot\\": "src",
-            "Bootstrap3\\": "src"
+            "Bootstrap3\\": ["src","./plugins/Bootstrap3/src/"]
         }
     },
     "autoload-dev": {
