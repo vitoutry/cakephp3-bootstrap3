@@ -1,7 +1,17 @@
 {
     "name": "ivanamat/cakephp3-bootstrap3",
     "description": "Twitter Bootstrap Theme",
+    "keywords": ["cakephp", "cakephp3", "cake3", "plugin", "theme", "bootstrap", "bootstrap3"],
+    "homepage": "https://github.com/ivanamat/cakephp3-bootstrap3",
     "type": "cakephp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Amat",
+            "homepage": "http://www.ivanamat.es",
+            "role": "Author"
+        }
+    ],
     "require": {
         "php": ">=5.4.16",
         "cakephp/cakephp": "~3.0"
