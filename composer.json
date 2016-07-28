@@ -18,6 +18,7 @@
     },
     "autoload": {
         "psr-4": {
+            "Bootstrap3\\Template\\Layout": "src",
             "Bootstrap3\\Template": "./plugins/Bootstrap3/src/Template",
             "Bootstrap3\\webroot": "webroot",
             "Bootstrap3\\": "src"
