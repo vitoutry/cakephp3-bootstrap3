@@ -1,0 +1,19 @@
+{
+    "name": "ivanamat/cakephp3-bootstrap",
+    "description": "Twitter Bootstrap Theme",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bootstrap\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
