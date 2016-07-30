@@ -11,4 +11,4 @@ composer require ivanamat/cakephp3-bootstrap
 ```
 ## About this theme
 
-This is only a development version.
+Basic Bootstrap 3 theme.
