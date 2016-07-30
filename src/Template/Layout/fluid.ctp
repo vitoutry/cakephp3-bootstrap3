@@ -29,7 +29,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <![endif]-->
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
         <?php echo $this->Flash->render(); ?>
 
         <?php echo $this->fetch('content'); ?>
