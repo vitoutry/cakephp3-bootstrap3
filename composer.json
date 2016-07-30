@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bootstrap3\\": ["./plugins/Bootstrap3/src/","src"]
+            "Bootstrap3\\": "src"
         }
     },
     "autoload-dev": {
