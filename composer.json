@@ -18,6 +18,7 @@
     },
     "autoload": {
         "psr-4": {
+            "Bootstrap3\\Template\\": "./src/Template/Plugin/Bootstrap3/Template",
             "Bootstrap3\\": "src"
         }
     },
