@@ -14,8 +14,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?php
         echo $this->Html->meta('icon');
 
-        echo $this->Html->css('bootstrap.min.css');
-        echo $this->Html->css('bootstrap-theme.min.css');
+        echo $this->Html->css('Bootstrap3.bootstrap.min.css');
+        echo $this->Html->css('Bootstrap3.bootstrap-theme.min.css');
 
         echo $this->fetch('meta');
         echo $this->fetch('css');
@@ -34,5 +34,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
         <?php echo $this->fetch('content'); ?>
     </div>
+    <?php echo $this->Html->script('Bootstrap3.jquery-3.1.0.min.js'); ?>
+    <?php echo $this->Html->script('Bootstrap3.bootstrap.min.js'); ?>
   </body>
 </html>
